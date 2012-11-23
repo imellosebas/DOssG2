@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>DOssG,  Donaciones</title>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+<link href="bootstrap/css/mycss.css" rel="stylesheet" media="screen">
+<link href='bootstrap/mycss.css' rel='stylesheet' media='screen'>
+<link rel="shortcut icon" href="favicon.png">
+</head>
+
+<body>
+<div class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+            <ul class="nav">
+      <li><a href="home.html"><img src='LOG.jpg' width= 10 height=25></a></li>
+      <li class="dropdown">
+    <a class="dropdown-toggle" id="drop2" role="button" data-toggle="dropdown" href="#">
+     Adoptame 
+        <b class="caret"></b>
+      </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
+ <h4><li><a id='color' href="categorias.html" tabindex="1">Categorias</a></li> </h4>
+     <li><a href="cachorros.html" tabindex="1">Cachorros</a></li>
+     <li><a href="adultos.html" tabindex="1">Adultos</a></li>
+     <li><a href="pedigre.html" tabindex="1">Pedigre</a></li>
+    </ul>
+  </li>
+      <li><a href="about.html">About</a></li>
+  <li class="dropdown">
+    <a class="dropdown-toggle" id="drop1" role="button" data-toggle="dropdown" href="#">
+        Donaciones
+        <b class="caret"></b>
+      </a>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+     <li><a href="donar.html" tabindex="1">Dinero</a></li>
+     <li><a href="donar.html" tabindex="1">Alimentos</a></li>
+    </ul>
+  </li>
+</ul>
+    </div>
+</div>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+      </center>
+      <center>
+          <div class="row-fluid">
+            <div class='span3'></div>
+            <div class="span3">
+              <h1>Dinero </h1>              
+              </br>
+              <input type="text" id="nombre" name="nombre" value="* Nombre completo" onblur="show_hide_text('onblur',this,'* Nombre completo')" 
+              onfocus="show_hide_text('onfocus',this,'* Nombre completo')" class="inputLargo">
+              
+              <select id="tipo_documento" name="tipo_documento" onblur="show_hide_text('onblur',this,'* Tipo de documento')" 
+              onfocus="show_hide_text('onfocus',this,'* Tipo de documento')" class="inputCorta">        
+              <option value="* Tipo de documento">* Tipo de documento</option>            
+              <option value="Cédula de ciudadania">Cédula de ciudadania</option>              
+              <option value="Cédula de extranjería">Cédula de extranjería</option>            
+              <option value="Tarjeta de identidad">Tarjeta de identidad</option>            
+              <option value="Pasaporte">Pasaporte</option>               
+              <option value="Tarjeta Social Security">Tarjeta Social Security</option>          
+              <option value="Registro Civil">Registro Civil</option>              
+              <option value="Carné Diplomático">Carné Diplomático</option>               
+              <option value="Otro">Otro</option>            
+              </select>
+              
+              <input type="text" id="documento" name="documento" value="* Número de documento" 
+              onblur="show_hide_text('onblur',this,'* Número de documento')" 
+              onfocus="show_hide_text('onfocus',this,'* Número de documento')" class="inputCorta marg">
+              
+              
+              <input type="text" id="direccion" name="direccion" value="Dirección" onblur="show_hide_text('onblur',this,'Dirección')" 
+              onfocus="show_hide_text('onfocus',this,'Dirección')" class="inputCorta">
+              
+              <input type="text" id="telefono" name="telefono" value="Teléfono" onblur="show_hide_text('onblur',this,'Teléfono')" 
+              onfocus="show_hide_text('onfocus',this,'Teléfono')" class="inputCorta marg">
+              
+              <input type="text" id="email" name="email" value="* Email" onblur="show_hide_text('onblur',this,'* Email')"
+              onfocus="show_hide_text('onfocus',this,'* Email')" class="inputCorta">
+              
+              <br></br>
+              <p>Pon tu mocto aqui $</p> <input type="text" id="monto_donado" name="valor" value="">
+   
+              <p><a class="btn" href="adopcion/adopta.html">Donar &raquo;</a></p>
+            </div><!--/span-->
+            
+            
+            <div class="span3">
+              <h1>Alimentos y Productos </h1>
+              </br>
+              <input type="text" id="nombre" name="nombre" value="* Nombre completo" onblur="show_hide_text('onblur',this,'* Nombre completo')" 
+              onfocus="show_hide_text('onfocus',this,'* Nombre completo')" class="inputLargo">
+              
+              <select id="producto" name="tipo_productos" onblur="show_hide_text('onblur',this,'* Tipo de producto')" 
+              onfocus="show_hide_text('onfocus',this,'* Tipo de producto')" class="inputCorta">        
+              <option value="* Tipo de producto">* Tipo de producto</option>            
+              <option value="Alimento">Alimento</option>              
+              <option value="Asepcia">Asepsia</option>            
+              <option value="Medicamentos">Medicamentos</option>            
+              <option value="Juguetes">Juguetes</option>               
+              <option value="Otros">Otros</option>                 
+              </select>
+              
+              
+              <input type="text" id="direccion" name="direccion" value="Dirección" onblur="show_hide_text('onblur',this,'Dirección')" 
+              onfocus="show_hide_text('onfocus',this,'Dirección')" class="inputCorta">
+              
+              <input type="text" id="telefono" name="telefono" value="Teléfono" onblur="show_hide_text('onblur',this,'Teléfono')" 
+              onfocus="show_hide_text('onfocus',this,'Teléfono')" class="inputCorta marg">
+              
+              <input type="text" id="email" name="email" value="* Email" onblur="show_hide_text('onblur',this,'* Email')"
+              onfocus="show_hide_text('onfocus',this,'* Email')" class="inputCorta">
+              <p><a class="btn" href="donacion/dona.html">Donar &raquo;</a></p>
+            </div><!--/span-->
+            <div class='span3'></div>
+      </div><!--/row-->
+      
+      </center>
+    <br></br>
+
+<br></br>
+<br></br>
+     <br/>
+     <hr>
+<center>
+      <footer>
+        <p>has de tu hogar una buena manada</p>
+       
+      </footer>
+</center>
+    </div><!--/.fluid-container-->
+<script src="bootstrap/js/jquery.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/soundcloud.js"></script>
+</body>
+</html>
