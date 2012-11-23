@@ -2263,7 +2263,7 @@ table th[class*="span"],
   width: 0;
   height: 0;
   vertical-align: top;
-  border-top: 4px solid #000000;
+  border-top: 4px solid #1B84DD;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   content: "";
@@ -2339,7 +2339,7 @@ table th[class*="span"],
   color: #757c82;
   text-decoration: none;
   outline: 0;
-  background-color: #22262a;
+  background-color: #1B84DD;
   background-image: -moz-linear-gradient(top, #272b30, #1c1e22);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#272b30), to(#1c1e22));
   background-image: -webkit-linear-gradient(top, #272b30, #1c1e22);
