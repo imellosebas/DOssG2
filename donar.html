@@ -13,6 +13,11 @@
 <body>
 <div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
+    <div class="brand">
+              <a href='http://www.facebook.com/dossg.adoptame' target= '_blank'><img src="img/face.jpg" width= 25> </a>
+		      <a href='https://twitter.com/DOssGAdoptame' target= '_blank'><img src="img/tw.jpg" width= 25> </a>
+		      <a href='https://plus.google.com/u/0/117277029420414977558/posts' target= '_blank'><img src="img/plus.png" width= 25> </a>
+    </div>
             <ul class="nav">
       <li><a href="home.html"><img src='img/logi.jpg' width= 100 height=10></a></li>
       <li class="dropdown">
@@ -22,9 +27,9 @@
       </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
  <h4><li><a id='color' href="categorias.html" tabindex="1">Categorias</a></li> </h4>
-     <li><a href="cachorros.html" tabindex="1">Cachorros</a></li>
+    <li><a href="cachorros.html" tabindex="1">Cachorros</a></li>
      <li><a href="adultos.html" tabindex="1">Adultos</a></li>
-    
+     
     </ul>
   </li>
       <li><a href="about.html">About</a></li>
@@ -44,81 +49,78 @@
 <br></br>
 <br></br>
 <br></br>
-<br></br>
 
-      </center>
       <center>
           <div class="row-fluid">
             <div class='span3'></div>
-            <div class="span3">
+            <div class=" span3">
               <h1>Dinero </h1>              
               </br>
-              <input type="text" id="nombre" name="nombre" value="* Nombre completo" onblur="show_hide_text('onblur',this,'* Nombre completo')" 
-              onfocus="show_hide_text('onfocus',this,'* Nombre completo')" class="inputLargo">
+              <input type="text" id="nombre" placeholder='Nombre'>
               
-              <select id="tipo_documento" name="tipo_documento" onblur="show_hide_text('onblur',this,'* Tipo de documento')" 
-              onfocus="show_hide_text('onfocus',this,'* Tipo de documento')" class="inputCorta">        
-              <option value="* Tipo de documento">* Tipo de documento</option>            
-              <option value="Cédula de ciudadania">Cédula de ciudadania</option>              
-              <option value="Cédula de extranjería">Cédula de extranjería</option>            
-              <option value="Tarjeta de identidad">Tarjeta de identidad</option>            
-              <option value="Pasaporte">Pasaporte</option>               
-              <option value="Tarjeta Social Security">Tarjeta Social Security</option>          
-              <option value="Registro Civil">Registro Civil</option>              
-              <option value="Carné Diplomático">Carné Diplomático</option>               
-              <option value="Otro">Otro</option>            
+              <select id="tipo_documento" placeholder='Tipo de documento'>
+              
+              <option value="Cedula de ciudadania">Cedula de ciudadania</option>            
+              <option value="Cedula de extrajeria">Cédula de extranjeria</option>              
+              <option value="Tarjeta de identidad">Trajeta de identidad</option>            
+              <option value="Tarjeta de identidad">Tarjeta de identidad</option>  
+              <opcion value='pasaporte'>Pasaporte</opcion>
+              <opcion value='Registro civil'>Registro civil</opcion>               
+              <option value="Otro">Otro</option>          
+                           
+                                    
               </select>
               
-              <input type="text" id="documento" name="documento" value="* Número de documento" 
-              onblur="show_hide_text('onblur',this,'* Número de documento')" 
-              onfocus="show_hide_text('onfocus',this,'* Número de documento')" class="inputCorta marg">
+              <input type="text" id="# documento" name="# documento" placeholder="# documento">
+        
+              <input type="text" id="Direccion" name="Direccion" placeholder="Direccion"
               
               
-              <input type="text" id="direccion" name="direccion" value="Dirección" onblur="show_hide_text('onblur',this,'Dirección')" 
-              onfocus="show_hide_text('onfocus',this,'Dirección')" class="inputCorta">
+              <input type="text" id="telefono" name="telefono" placeholder="Teléfono">
               
-              <input type="text" id="telefono" name="telefono" value="Teléfono" onblur="show_hide_text('onblur',this,'Teléfono')" 
-              onfocus="show_hide_text('onfocus',this,'Teléfono')" class="inputCorta marg">
+              <input type="text" id="email" name="email" placeholder="email" >
               
-              <input type="text" id="email" name="email" value="* Email" onblur="show_hide_text('onblur',this,'* Email')"
-              onfocus="show_hide_text('onfocus',this,'* Email')" class="inputCorta">
               
               <br></br>
-              <p>Pon tu mocto aqui $</p> <input type="text" id="monto_donado" name="valor" value="">
+              <p>Pon tu monto aqui $ &raquo</p> <input type="text" id="monto_donado" name="Monto" placeholder="Monto">
    
-              <p><a class="btn" href="adopcion/adopta.html">Donar &raquo;</a></p>
+              <p><a id='donar' class="btn" href="proceso.html">Donar &raquo;</a></p>
             </div><!--/span-->
             
             
             <div class="span3">
               <h1>Alimentos y Productos </h1>
               </br>
-              <input type="text" id="nombre" name="nombre" value="* Nombre completo" onblur="show_hide_text('onblur',this,'* Nombre completo')" 
-              onfocus="show_hide_text('onfocus',this,'* Nombre completo')" class="inputLargo">
+              <input type="text" id="nombre" name="nombre" placeholder="* Nombre completo" >
+    
               
-              <select id="producto" name="tipo_productos" onblur="show_hide_text('onblur',this,'* Tipo de producto')" 
-              onfocus="show_hide_text('onfocus',this,'* Tipo de producto')" class="inputCorta">        
-              <option value="* Tipo de producto">* Tipo de producto</option>            
-              <option value="Alimento">Alimento</option>              
-              <option value="Asepcia">Asepsia</option>            
-              <option value="Medicamentos">Medicamentos</option>            
-              <option value="Juguetes">Juguetes</option>               
-              <option value="Otros">Otros</option>                 
+              <select id="producto" name="tipo_productos" >
+       
+              <option value="* Tipo de producto">* Tipo de producto</option>  
+              <option value="Alimento">Alimento</option> 
+              <option value="Asepcia">Asepsia</option>  
+              <option value='Medicamento'>Medicamento</option>
+              <option value='Juguetes'>Juguetes</option>
+              <option value='Otro'>Otro</option>
+                                       
               </select>
               
-              
-              <input type="text" id="direccion" name="direccion" value="Dirección" onblur="show_hide_text('onblur',this,'Dirección')" 
-              onfocus="show_hide_text('onfocus',this,'Dirección')" class="inputCorta">
-              
-              <input type="text" id="telefono" name="telefono" value="Teléfono" onblur="show_hide_text('onblur',this,'Teléfono')" 
-              onfocus="show_hide_text('onfocus',this,'Teléfono')" class="inputCorta marg">
-              
-              <input type="text" id="email" name="email" value="* Email" onblur="show_hide_text('onblur',this,'* Email')"
-              onfocus="show_hide_text('onfocus',this,'* Email')" class="inputCorta">
-              <p><a class="btn" href="donacion/dona.html">Donar &raquo;</a></p>
+              <input type="text" id="Direccion" name="Direccion" placeholder='Direccion' >
+              <input type="text" id="Telefon" name="Telefono" placeholder="Telefono" >
+              <input type="text" id="Email" name="Email" placeholder="Email" >
+              <p><a class="btn" href="a">Donar &raquo;</a></p>
             </div><!--/span-->
+        
             <div class='span3'></div>
+            
       </div><!--/row-->
+      
+      
+      
+      
+      
+      
+      
       
       </center>
     <br></br>
@@ -137,5 +139,13 @@
 <script src="bootstrap/js/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/soundcloud.js"></script>
+<!-- Load Stackmob Dependencies -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://static.stackmob.com/js/json2-min.js"></script>
+<script type="text/javascript" src="http://static.stackmob.com/js/underscore-1.4.1-min.js"></script>
+<script type="text/javascript" src="http://static.stackmob.com/js/backbone-0.9.2-min.js"></script>
+<script type="text/javascript" src="http://static.stackmob.com/js/stackmob-js-0.6.0-min.js"></script>
+    <!-- App scripts (Disable until they finnish their design) -->
+    <script type="text/javascript" src="js/Coderise.js"></script>
 </body>
 </html>

@@ -2,25 +2,24 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>DOssG</title>
+<title>DOssG,  Donaciones</title>
 <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
 <link href="bootstrap/css/mycss.css" rel="stylesheet" media="screen">
 <link href='bootstrap/mycss.css' rel='stylesheet' media='screen'>
 <link rel="shortcut icon" href="img/favicon.jpg">
-<link href='http://fonts.googleapis.com/css?family=Uncial+Antiqua' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <div class="navbar navbar-fixed-top navbar-inverse">
     <div class="navbar-inner">
     <div class="brand">
-        	  <a href='http://www.facebook.com/dossg.adoptame' target= '_blank'><img src="img/face.jpg" width= 25> </a>
-		      <a href='https://twitter.com/DOssGAdoptame' target= '_blank'><img src="img/tw.jpg" width= 25> </a>
+              <a href='http://www.facebook.com/dossg.adoptame' target= '_blank'><img src="img/face.jpg" width= 25> </a>
+    	      <a href='https://twitter.com/DOssGAdoptame' target= '_blank'><img src="img/tw.jpg" width= 25> </a>
 		      <a href='https://plus.google.com/u/0/117277029420414977558/posts' target= '_blank'><img src="img/plus.png" width= 25> </a>
     </div>
             <ul class="nav">
-      <li><a href="home.html"><img src='img/logi.jpg' width=100 height=10></a></li>
+      <li><a href="home.html"><img src='img/logi.jpg' width= 100 height=10></a></li>
       <li class="dropdown">
     <a class="dropdown-toggle" id="drop2" role="button" data-toggle="dropdown" href="#">
      Adoptame 
@@ -28,14 +27,14 @@
       </a>
     <ul class="dropdown-menu" role="menu" aria-labelledby="drop2">
  <h4><li><a id='color' href="categorias.html" tabindex="1">Categorias</a></li> </h4>
-     <li><a href="cachorros.html" tabindex="1">Cachorros</a></li>
+    <li><a href="cachorros.html" tabindex="1">Cachorros</a></li>
      <li><a href="adultos.html" tabindex="1">Adultos</a></li>
-    
+     
     </ul>
   </li>
       <li><a href="about.html">About</a></li>
   <li class="dropdown">
-    <a class="dropdown-toggle" id="drop1" role="button" data-toggle="dropdown" href="donar.html">
+    <a class="dropdown-toggle" id="drop1" role="button" data-toggle="dropdown" href="#">
         Donaciones
         <b class="caret"></b>
       </a>
@@ -49,51 +48,64 @@
 </div>
 <br></br>
 <br></br>
-<br/>
-      <br/>
-       <br/>
-       <br/>
-       <br/>
+<br></br>
 
-<center>
+      <center>
+
           <div class="row-fluid">
-          <div class='span1'></div>
+            <div class='span4'></div>
             <div class="span4">
-              <a href='cachorros.html'><img src='img/cachor.jpg'width=500></a>
-              <br></br> 
-              <p><a class="btn" href="cachorros.html">Escoge &raquo;</a></p>
-            </div><!--/span-->
-            <div class='span2'></div>
-            <div class="span4">              
-              <a href='adultos.html'><img src='img/adul.jpg'width=500></a>
-              <br></br>              
-              <p><a class="btn" href="adultos.html">Escoge &raquo;</a></p>
+              <h1>Adopta </h1>              
+              </br>
+              <input type="text" id="nombre de la mascota" name="nombre mascota" placeholder="nombre mascota">
+              
+              <input type="text" id="nombre" placeholder='Nombre'>
+              
+              <select id="tipo_documento" placeholder='Tipo de documento'>
+              
+              <option value="Cedula de ciudadania">Cedula de ciudadania</option>            
+              <option value="Cedula de extrajeria">Cédula de extranjeria</option>              
+              <option value="Tarjeta de identidad">Trajeta de identidad</option>            
+              <option value="Tarjeta de identidad">Tarjeta de identidad</option>  
+              <opcion value='pasaporte'>Pasaporte</opcion>
+              <opcion value='Registro civil'>Registro civil</opcion>               
+              <option value="Otro">Otro</option>          
+                           
+                                    
+              </select>
+              
+              <input type="text" id="Telefono" name="Telefono" placeholder="Telefono">
+        
+              <input type="text" id="Direccion" name="Direccion" placeholder="Direccion"
+              
+              
+              <input type="text" id="telefono" name="telefono" placeholder="Teléfono">
+              
+              <input type="text" id="email" name="email" placeholder="email" >
+              
+              <br/>
+              <br/>
+              <img src='img/ad.jpg' width=1200>
+              <br/>
+              <br/>
+              
+              
+   
+              <p><a class="btn" href="a">ACEPTA Y ENVIA &raquo;</a></p>
             </div><!--/span-->
             
-              <br></br>
-              
-            </div><!--/span-->
-          </div><!--/row-->
-          
-        </div><!--/span-->
-      </div><!--/row-->
+        
       
       </center>
-    
+    <br></br>
+
+<br></br>
+<br></br>
      <br/>
-      <br/>
-       <br/>
-       <br/>
-       <br/>
-       <br/>
-      <br/>
-       <br/>
-       
      <hr>
 <center>
       <footer>
-        <p>&copy DOssG Derechos Reservados 2012</p>
-       <p> Has de tu hogar una buena manada</p>
+        <p>has de tu hogar una buena manada</p>
        
       </footer>
 </center>
@@ -101,7 +113,6 @@
 <script src="bootstrap/js/jquery.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
 <script src="bootstrap/js/soundcloud.js"></script>
-<script src='bootstrap/js/carrousel.js'></script>
 <!-- Load Stackmob Dependencies -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://static.stackmob.com/js/json2-min.js"></script>

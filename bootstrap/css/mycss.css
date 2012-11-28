@@ -1,0 +1,13 @@
+.color{
+    color: #1B84DD
+    }
+    
+
+.twitter a { margin-right: 15px; float:left; background: url("img/tw.jpg") no-repeat;}
+.twitter a:hover { background: url("img/tw2.jpg") no-repeat;  }
+
+.facebook a { margin-right: 15px; float:left; background: url("img/face.jpg") no-repeat; }
+.facebook a:hover { background: <img src="img/face2.jpg"> no-repeat;  }
+
+.google a { float:left; background: url("img/plus.png") no-repeat; }
+.google a:hover { background: url("img/plus.png") no-repeat;  }
